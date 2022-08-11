@@ -1,0 +1,258 @@
+*, body{
+   margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #B66F8F;
+    
+
+
+}
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+a:active{
+    text-decoration: underline;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    width: 95%;
+    line-height: 5;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 20px;
+    
+}
+.logo{
+    padding-left: 40px;
+}
+nav {
+  width: 50%;  
+  height: 50%;
+  margin-right: 5px;
+  margin-left: 5pc;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #B66F8F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+
+.hero-image {
+    background-image: url("../images/photo-1452827073306-6e6e661baf57.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+ 
+}
+
+.hero-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding-left: 40px;
+}
+
+.hero-text h1{
+    font-size: 39.5px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+/* Categories Section */
+.categories-heading{
+    height: 20%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ocassions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ocassion-img{
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.ocassion-name{
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Summer Favourite */
+
+.summer-fav{
+    display: flex;
+    justify-content: space-between;
+}
+.summerfav-img{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* Testimonial */
+.testimonials{
+    padding-bottom: 50px;
+}
+.testimonials-div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.testimonial-p{
+    display: block;
+    padding: 20px;
+}
+
+.testimonials-div-left{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer */
+footer{
+    text-align: center;
+}
+footer h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links a{
+    text-decoration: none;
+}
+.contactus-icons{
+    margin: 5px;
+}
+.socialmedia-icons{
+    width: 20px;
+
+}
+
+/* About Us Page */
+.about-us-heading{
+    
+        display: flex;
+        justify-content: center;
+        
+        
+    
+}
+.about-us-heading h1{
+    padding-top: 30px;
+    font-size: 39.5px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.about-us-photo{
+    margin: 0 auto;
+}
+.about-us-photo img{
+    
+    max-width: 1024px;
+    max-height: 655px;
+}
+.about-us-p{
+    padding-bottom: 50px;
+}
+.about-us-p p{
+    padding: 10px;
+}
+
+.contact-us-btn{
+    text-align: center;
+}
+
+.contact-us-btn button{
+    padding: 10px;
+    background-color: #B66F8F;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+/* Products */
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-images img{
+    max-width: 200px;
+    max-height: 200px;
+    padding: 13px;
+    margin: 5px;
+}
+
+.price-table-heading{
+    padding: 10px;
+    text-align: center;
+}
+
+/* Images */
+
+.image-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ .happy-customers img, .our-place img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.heading2{
+    padding: 40px;
+}
+ h4{
+     padding: 20px;
+    text-align: center;
+}
+.maps img{
+    max-width: 1024px;
+}
